@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 6687eb4e6ab4deee298373773dedcaf6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -827904002848636174
+    second: assetciudadderruida_0
+  - first:
+      213: -6659128260142342118
+    second: assetciudadderruida_1
+  - first:
+      213: 34121973369860201
+    second: assetciudadderruida_2
+  - first:
+      213: -5952377437487014389
+    second: assetciudadderruida_3
+  - first:
+      213: -1129179594921071124
+    second: assetciudadderruida_4
+  - first:
+      213: 7346057322105687236
+    second: assetciudadderruida_5
+  - first:
+      213: -9115417408731501046
+    second: assetciudadderruida_6
+  - first:
+      213: 6667917101403124755
+    second: assetciudadderruida_7
+  - first:
+      213: 7866052014924545401
+    second: assetciudadderruida_8
+  - first:
+      213: -5397249795286018219
+    second: assetciudadderruida_9
+  - first:
+      213: 790666850267134181
+    second: assetciudadderruida_10
+  - first:
+      213: 2664768248549958552
+    second: assetciudadderruida_11
+  - first:
+      213: -3151388407911202809
+    second: assetciudadderruida_12
+  - first:
+      213: -7136486022203646255
+    second: assetciudadderruida_13
+  - first:
+      213: 2786262306830959961
+    second: assetciudadderruida_14
+  - first:
+      213: -4825334076529732347
+    second: assetciudadderruida_15
+  - first:
+      213: -3121990523384929896
+    second: assetciudadderruida_16
+  - first:
+      213: -2936592390347377820
+    second: assetciudadderruida_17
+  - first:
+      213: 2354221447690298507
+    second: assetciudadderruida_18
+  - first:
+      213: -5403201238379030168
+    second: assetciudadderruida_19
+  - first:
+      213: -1129714754204990614
+    second: assetciudadderruida_20
+  - first:
+      213: 1262138142536916831
+    second: assetciudadderruida_21
+  - first:
+      213: 1850442799652763691
+    second: assetciudadderruida_22
+  - first:
+      213: -8065983273789096067
+    second: assetciudadderruida_23
+  - first:
+      213: 1177422179851919738
+    second: assetciudadderruida_24
+  - first:
+      213: -4164005438118204432
+    second: assetciudadderruida_25
+  - first:
+      213: -7906222917105152974
+    second: assetciudadderruida_26
+  - first:
+      213: 7775112667024125877
+    second: assetciudadderruida_27
+  - first:
+      213: -1632624890801951343
+    second: assetciudadderruida_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: assetciudadderruida_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 830
+        width: 402
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2451222b1b284f0800000000000000
+      internalID: -827904002848636174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 809
+        width: 603
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10637401260693a0800000000000000
+      internalID: -6659128260142342118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 801
+        width: 468
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960feb501c9397000800000000000000
+      internalID: 34121973369860201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 672
+        width: 541
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e5985f148e46da0800000000000000
+      internalID: -5952377437487014389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 679
+        width: 548
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced2c1d14295450f0800000000000000
+      internalID: -1129179594921071124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_5
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 441
+        width: 298
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc44cf963072f560800000000000000
+      internalID: 7346057322105687236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_6
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 657
+        width: 211
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ea52d89288f7180800000000000000
+      internalID: -9115417408731501046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 519
+        width: 422
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314b2ec8643398c50800000000000000
+      internalID: 6667917101403124755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 384
+        width: 291
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97db256a1a4d92d60800000000000000
+      internalID: 7866052014924545401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 497
+        width: 393
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5575de338ed1915b0800000000000000
+      internalID: -5397249795286018219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_10
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 445
+        width: 324
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e879d9af4309fa00800000000000000
+      internalID: 790666850267134181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 401
+        width: 181
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8936f8f7a982bf420800000000000000
+      internalID: 2664768248549958552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 407
+        width: 186
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7004b2590f40444d0800000000000000
+      internalID: -3151388407911202809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_13
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 407
+        width: 148
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ded20606cb16fc90800000000000000
+      internalID: -7136486022203646255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_14
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 151
+        width: 580
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95548b94ecacaa620800000000000000
+      internalID: 2786262306830959961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 264
+        width: 502
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5059bdd1938f80db0800000000000000
+      internalID: -4825334076529732347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_16
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 287
+        width: 259
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8916185f8267ca4d0800000000000000
+      internalID: -3121990523384929896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_17
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 151
+        width: 368
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463ba3b97c02f37d0800000000000000
+      internalID: -2936592390347377820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 136
+        width: 545
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84af28feefdba020800000000000000
+      internalID: 2354221447690298507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_19
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 151
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8699770e919f305b0800000000000000
+      internalID: -5403201238379030168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_20
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 151
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a630812aa627250f0800000000000000
+      internalID: -1129714754204990614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 55
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f526b14f3048110800000000000000
+      internalID: 1262138142536916831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 337
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b287b761ce71ea910800000000000000
+      internalID: 1850442799652763691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1
+        width: 274
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ffe89a2fedf0090800000000000000
+      internalID: -8065983273789096067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_24
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 9
+        width: 269
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a716dbcfb3b075010800000000000000
+      internalID: 1177422179851919738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_25
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1
+        width: 177
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb6b2aad1b7636c0800000000000000
+      internalID: -4164005438118204432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_26
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1
+        width: 137
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c05e65524774290800000000000000
+      internalID: -7906222917105152974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_27
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 53
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfec9eb6cfb6eb60800000000000000
+      internalID: 7775112667024125877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetciudadderruida_28
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 17
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19de944df40c759e0800000000000000
+      internalID: -1632624890801951343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      assetciudadderruida_0: -827904002848636174
+      assetciudadderruida_1: -6659128260142342118
+      assetciudadderruida_10: 790666850267134181
+      assetciudadderruida_11: 2664768248549958552
+      assetciudadderruida_12: -3151388407911202809
+      assetciudadderruida_13: -7136486022203646255
+      assetciudadderruida_14: 2786262306830959961
+      assetciudadderruida_15: -4825334076529732347
+      assetciudadderruida_16: -3121990523384929896
+      assetciudadderruida_17: -2936592390347377820
+      assetciudadderruida_18: 2354221447690298507
+      assetciudadderruida_19: -5403201238379030168
+      assetciudadderruida_2: 34121973369860201
+      assetciudadderruida_20: -1129714754204990614
+      assetciudadderruida_21: 1262138142536916831
+      assetciudadderruida_22: 1850442799652763691
+      assetciudadderruida_23: -8065983273789096067
+      assetciudadderruida_24: 1177422179851919738
+      assetciudadderruida_25: -4164005438118204432
+      assetciudadderruida_26: -7906222917105152974
+      assetciudadderruida_27: 7775112667024125877
+      assetciudadderruida_28: -1632624890801951343
+      assetciudadderruida_3: -5952377437487014389
+      assetciudadderruida_4: -1129179594921071124
+      assetciudadderruida_5: 7346057322105687236
+      assetciudadderruida_6: -9115417408731501046
+      assetciudadderruida_7: 6667917101403124755
+      assetciudadderruida_8: 7866052014924545401
+      assetciudadderruida_9: -5397249795286018219
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
