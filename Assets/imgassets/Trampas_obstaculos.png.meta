@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 0783fd4a88c6ab88c911cfb94a013c08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6993802636018806908
+    second: Trampas_obstaculos_0
+  - first:
+      213: 7105969057664331056
+    second: Trampas_obstaculos_1
+  - first:
+      213: 4236753705479558433
+    second: Trampas_obstaculos_2
+  - first:
+      213: -4947264559499914631
+    second: Trampas_obstaculos_3
+  - first:
+      213: -2017346404046765174
+    second: Trampas_obstaculos_4
+  - first:
+      213: 4164080955532768175
+    second: Trampas_obstaculos_5
+  - first:
+      213: 1222081027968091279
+    second: Trampas_obstaculos_6
+  - first:
+      213: 2527534576935479727
+    second: Trampas_obstaculos_7
+  - first:
+      213: 6099777669231519919
+    second: Trampas_obstaculos_8
+  - first:
+      213: -6342443916498637980
+    second: Trampas_obstaculos_9
+  - first:
+      213: 1465952340842901144
+    second: Trampas_obstaculos_10
+  - first:
+      213: 1864050901511070664
+    second: Trampas_obstaculos_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trampas_obstaculos_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 600
+        width: 493
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c707715517afe0160800000000000000
+      internalID: 6993802636018806908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_1
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 731
+        width: 293
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03deffa75397d9260800000000000000
+      internalID: 7105969057664331056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 727
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125ddef3c09fbca30800000000000000
+      internalID: 4236753705479558433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 640
+        width: 534
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972d0294819c75bb0800000000000000
+      internalID: -4947264559499914631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 226
+        width: 482
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8381e54222f004e0800000000000000
+      internalID: -2017346404046765174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_5
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 435
+        width: 386
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3ff7a1199c9c930800000000000000
+      internalID: 4164080955532768175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_6
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 264
+        width: 565
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8448c65834b5f010800000000000000
+      internalID: 1222081027968091279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1
+        width: 622
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9a1c76e4b931320800000000000000
+      internalID: 2527534576935479727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_8
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 2
+        width: 507
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8a76fd873c6a450800000000000000
+      internalID: 6099777669231519919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_9
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 201
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46be2459cdc1bf7a0800000000000000
+      internalID: -6342443916498637980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_10
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 229
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ee79513eb185410800000000000000
+      internalID: 1465952340842901144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trampas_obstaculos_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 16
+        width: 290
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c360d33b607ed910800000000000000
+      internalID: 1864050901511070664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Trampas_obstaculos_0: 6993802636018806908
+      Trampas_obstaculos_1: 7105969057664331056
+      Trampas_obstaculos_10: 1465952340842901144
+      Trampas_obstaculos_11: 1864050901511070664
+      Trampas_obstaculos_2: 4236753705479558433
+      Trampas_obstaculos_3: -4947264559499914631
+      Trampas_obstaculos_4: -2017346404046765174
+      Trampas_obstaculos_5: 4164080955532768175
+      Trampas_obstaculos_6: 1222081027968091279
+      Trampas_obstaculos_7: 2527534576935479727
+      Trampas_obstaculos_8: 6099777669231519919
+      Trampas_obstaculos_9: -6342443916498637980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
