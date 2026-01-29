@@ -65,7 +65,10 @@ public class controller2 : MonoBehaviour
 
         jumpBufferCounter -= Time.deltaTime;
 
+<<<<<<< Updated upstream
         // ANIMACIONES
+=======
+>>>>>>> Stashed changes
         ControlarAnimaciones();
     }
 
@@ -175,9 +178,13 @@ public class controller2 : MonoBehaviour
     {
         if (animator != null)
         {
+<<<<<<< Updated upstream
             float velocidad = Mathf.Abs(rb.linearVelocity.x);
 
             animator.SetFloat(STRING_VELOCIDAD, velocidad, 0.05f, Time.deltaTime);
+=======
+            animator.SetFloat(STRING_VELOCIDAD, Mathf.Abs(rb.linearVelocity.x), 0.05f, Time.deltaTime);
+>>>>>>> Stashed changes
             animator.SetBool(STRING_EN_SUELO, isGrounded);
         }
     }
@@ -188,12 +195,15 @@ public class controller2 : MonoBehaviour
             isGrounded = true;
     }
 
+<<<<<<< Updated upstream
     void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
             isGrounded = true;
     }
 
+=======
+>>>>>>> Stashed changes
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))

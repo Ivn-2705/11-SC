@@ -60,18 +60,21 @@ public class controller : MonoBehaviour
 
     void Update()
     {
-        // INPUT
+        // --- INPUT CON WAD ---
         moveInput = 0f;
-        if (Keyboard.current.aKey.isPressed) moveInput = -1f;
-        if (Keyboard.current.dKey.isPressed) moveInput = 1f;
+        if (Keyboard.current.aKey.isPressed) moveInput = -1f; // A para izquierda
+        if (Keyboard.current.dKey.isPressed) moveInput = 1f;  // D para derecha
 
-        var wKey = Keyboard.current.wKey;
-        if (wKey.wasPressedThisFrame) jumpBufferCounter = jumpBufferTime;
-        jumpReleased = wKey.wasReleasedThisFrame;
+        var jumpKey = Keyboard.current.wKey; // W para saltar
+        if (jumpKey.wasPressedThisFrame) jumpBufferCounter = jumpBufferTime;
+        jumpReleased = jumpKey.wasReleasedThisFrame;
 
         jumpBufferCounter -= Time.deltaTime;
 
+<<<<<<< Updated upstream
         // ANIMACIONES
+=======
+>>>>>>> Stashed changes
         ControlarAnimaciones();
     }
 
@@ -111,12 +114,12 @@ public class controller : MonoBehaviour
         if (left)
         {
             isTouchingWall = true;
-            wallDirection = 1;
+            wallDirection = 1; // Salta hacia la derecha
         }
         else if (right)
         {
             isTouchingWall = true;
-            wallDirection = -1;
+            wallDirection = -1; // Salta hacia la izquierda
         }
         else
         {
@@ -147,7 +150,7 @@ public class controller : MonoBehaviour
             return;
         }
 
-        // CORTE DE SALTO
+        // CORTE DE SALTO (Salto variable)
         if (jumpReleased && rb.linearVelocity.y > 0f)
         {
             rb.linearVelocity = new Vector2(
@@ -181,12 +184,16 @@ public class controller : MonoBehaviour
     {
         if (animator != null)
         {
+<<<<<<< Updated upstream
             float velocidad = Mathf.Abs(rb.linearVelocity.x);
 
             // Suavizado 0.05
             animator.SetFloat(STRING_VELOCIDAD, velocidad, 0.05f, Time.deltaTime);
 
             // En suelo SIN suavizado (cambia al instante)
+=======
+            animator.SetFloat(STRING_VELOCIDAD, Mathf.Abs(rb.linearVelocity.x), 0.05f, Time.deltaTime);
+>>>>>>> Stashed changes
             animator.SetBool(STRING_EN_SUELO, isGrounded);
         }
     }
@@ -225,6 +232,12 @@ public class controller : MonoBehaviour
 
         RaycastHit2D hit = Physics2D.BoxCast(position, size, 0f, Vector2.down, extraHeight, groundLayer);
         isGrounded = hit.collider != null;
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+            isGrounded = false;
     }
 }
 
