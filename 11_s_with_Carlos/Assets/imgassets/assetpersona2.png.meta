@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 6d9aa179e0caf06d78e26638634319f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2252124569699356649
+    second: assetpersona2_0
+  - first:
+      213: -5673237372775127388
+    second: assetpersona2_1
+  - first:
+      213: -580492946940741044
+    second: assetpersona2_2
+  - first:
+      213: 3107521165675156099
+    second: assetpersona2_3
+  - first:
+      213: -4059482499102111572
+    second: assetpersona2_4
+  - first:
+      213: -2221594222020448621
+    second: assetpersona2_5
+  - first:
+      213: 5872695362925173225
+    second: assetpersona2_6
+  - first:
+      213: -7075705006012844889
+    second: assetpersona2_7
+  - first:
+      213: -8848576558628256790
+    second: assetpersona2_8
+  - first:
+      213: -5974111015106686513
+    second: assetpersona2_9
+  - first:
+      213: 1426534715640220350
+    second: assetpersona2_10
+  - first:
+      213: 4387343312622159220
+    second: assetpersona2_11
+  - first:
+      213: 1345177100292830564
+    second: assetpersona2_12
+  - first:
+      213: 1883734588074442584
+    second: assetpersona2_13
+  - first:
+      213: 2005701513491732269
+    second: assetpersona2_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: assetpersona2_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 608
+        width: 212
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710f329d2a8deb0e0800000000000000
+      internalID: -2252124569699356649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 639
+        width: 219
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6a445eaac9441b0800000000000000
+      internalID: -5673237372775127388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_2
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 601
+        width: 240
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a3af68dbca1f7f0800000000000000
+      internalID: -580492946940741044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_3
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 639
+        width: 224
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382531c2902202b20800000000000000
+      internalID: 3107521165675156099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_4
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 585
+        width: 290
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca88a15dc22d9a7c0800000000000000
+      internalID: -4059482499102111572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_5
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 638
+        width: 266
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e296953df4b21e0800000000000000
+      internalID: -2221594222020448621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 265
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e91d355151008150800000000000000
+      internalID: 5872695362925173225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 16
+        width: 276
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4b62529cb0ecd90800000000000000
+      internalID: -7075705006012844889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 281
+        width: 252
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae34d1f608a833580800000000000000
+      internalID: -8848576558628256790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_9
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1
+        width: 312
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc151d71fa1b71da0800000000000000
+      internalID: -5974111015106686513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_10
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 293
+        width: 245
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba8f7904c11cc310800000000000000
+      internalID: 1426534715640220350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_11
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1
+        width: 369
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47587886f79f2ec30800000000000000
+      internalID: 4387343312622159220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_12
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 235
+        width: 340
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465b1f612770ba210800000000000000
+      internalID: 1345177100292830564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_13
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 239
+        width: 395
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f3b4d90ae542a10800000000000000
+      internalID: 1883734588074442584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetpersona2_14
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 2
+        width: 452
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27532d56eea5db10800000000000000
+      internalID: 2005701513491732269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      assetpersona2_0: -2252124569699356649
+      assetpersona2_1: -5673237372775127388
+      assetpersona2_10: 1426534715640220350
+      assetpersona2_11: 4387343312622159220
+      assetpersona2_12: 1345177100292830564
+      assetpersona2_13: 1883734588074442584
+      assetpersona2_14: 2005701513491732269
+      assetpersona2_2: -580492946940741044
+      assetpersona2_3: 3107521165675156099
+      assetpersona2_4: -4059482499102111572
+      assetpersona2_5: -2221594222020448621
+      assetpersona2_6: 5872695362925173225
+      assetpersona2_7: -7075705006012844889
+      assetpersona2_8: -8848576558628256790
+      assetpersona2_9: -5974111015106686513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
