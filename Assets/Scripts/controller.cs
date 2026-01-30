@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(BoxCollider2D))]
 public class controller : MonoBehaviour
 {
+    private const string STRING_VELOCIDAD = "Velocidad";
+    private const string STRING_EN_SUELO = "EnSuelo";
+
     [Header("Movimiento")]
     public float moveSpeed = 5f;
 
@@ -22,12 +25,14 @@ public class controller : MonoBehaviour
     public float wallSlideSpeed = 2.5f;
     public float wallCheckDistance = 0.6f;
 
+    [Header("Animator")]
+    [SerializeField] private Animator animator;
+
     private Rigidbody2D rb;
     private SpriteRenderer sr;
 
     // INPUT
     private float moveInput;
-    private bool jumpPressed;
     private bool jumpReleased;
 
     // ESTADO
@@ -48,16 +53,18 @@ public class controller : MonoBehaviour
 
     void Update()
     {
-        // INPUT
+        // --- INPUT CON WAD ---
         moveInput = 0f;
-        if (Keyboard.current.aKey.isPressed) moveInput = -1f;
-        if (Keyboard.current.dKey.isPressed) moveInput = 1f;
+        if (Keyboard.current.aKey.isPressed) moveInput = -1f; // A para izquierda
+        if (Keyboard.current.dKey.isPressed) moveInput = 1f;  // D para derecha
 
-        var wKey = Keyboard.current.wKey;
-        if (wKey.wasPressedThisFrame) jumpBufferCounter = jumpBufferTime;
-        jumpReleased = wKey.wasReleasedThisFrame;
+        var jumpKey = Keyboard.current.wKey; // W para saltar
+        if (jumpKey.wasPressedThisFrame) jumpBufferCounter = jumpBufferTime;
+        jumpReleased = jumpKey.wasReleasedThisFrame;
 
         jumpBufferCounter -= Time.deltaTime;
+
+        ControlarAnimaciones();
     }
 
     void FixedUpdate()
@@ -96,12 +103,12 @@ public class controller : MonoBehaviour
         if (left)
         {
             isTouchingWall = true;
-            wallDirection = 1;
+            wallDirection = 1; // Salta hacia la derecha
         }
         else if (right)
         {
             isTouchingWall = true;
-            wallDirection = -1;
+            wallDirection = -1; // Salta hacia la izquierda
         }
         else
         {
@@ -132,7 +139,7 @@ public class controller : MonoBehaviour
             return;
         }
 
-        // CORTE DE SALTO
+        // CORTE DE SALTO (Salto variable)
         if (jumpReleased && rb.linearVelocity.y > 0f)
         {
             rb.linearVelocity = new Vector2(
@@ -162,9 +169,24 @@ public class controller : MonoBehaviour
         }
     }
 
+    private void ControlarAnimaciones()
+    {
+        if (animator != null)
+        {
+            animator.SetFloat(STRING_VELOCIDAD, Mathf.Abs(rb.linearVelocity.x), 0.05f, Time.deltaTime);
+            animator.SetBool(STRING_EN_SUELO, isGrounded);
+        }
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
             isGrounded = true;
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+            isGrounded = false;
     }
 }

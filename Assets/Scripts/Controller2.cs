@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(BoxCollider2D))]
 public class controller2 : MonoBehaviour
 {
+    private const string STRING_VELOCIDAD = "Velocidad";
+    private const string STRING_EN_SUELO = "EnSuelo";
+
     [Header("Movimiento")]
     public float moveSpeed = 5f;
 
@@ -21,6 +24,9 @@ public class controller2 : MonoBehaviour
     public float wallJumpForceY = 16f;
     public float wallSlideSpeed = 2.5f;
     public float wallCheckDistance = 0.6f;
+
+    [Header("Animator")]
+    [SerializeField] private Animator animator;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -58,6 +64,8 @@ public class controller2 : MonoBehaviour
         jumpReleased = upKey.wasReleasedThisFrame;
 
         jumpBufferCounter -= Time.deltaTime;
+
+        ControlarAnimaciones();
     }
 
     void FixedUpdate()
@@ -162,9 +170,25 @@ public class controller2 : MonoBehaviour
         }
     }
 
+    private void ControlarAnimaciones()
+    {
+        if (animator != null)
+        {
+            animator.SetFloat(STRING_VELOCIDAD, Mathf.Abs(rb.linearVelocity.x), 0.05f, Time.deltaTime);
+            animator.SetBool(STRING_EN_SUELO, isGrounded);
+        }
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
-{
-    if (collision.gameObject.CompareTag("Ground"))
-        isGrounded = true;
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+            isGrounded = true;
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+            isGrounded = false;
+    }
 }
-}
+
